@@ -1,0 +1,44 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e0e0e0;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Card with Background */
+.card {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/350/200') no-repeat center/cover;
+  color: white;
+  width: 350px;
+  padding: 25px;
+  margin: 0 auto;
+  border: 3px solid #555;
+  border-radius: 12px;
+}
+
+/* Text */
+.card h2 { font-size: 28px; margin-bottom: 15px; }
+.card p { font-size: 16px; line-height: 1.6; }
+.card span { font-weight: bold; color: #00ffcc; }
+
+/* Button */
+.card button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Priority */
+p { color: lightblue; }           /* tag */
+.highlight p { color: lightgreen; } /* class */
+#special { color: orange; }       /* id */
+
+/* Descendant & Direct Child */
+.card p { font-style: italic; }      /* descendant */
+.card > p { text-decoration: underline; } /* direct child */
+
